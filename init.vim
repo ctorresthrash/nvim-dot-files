@@ -54,7 +54,6 @@ Plug 'junegunn/gv.vim'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'tpope/vim-dispatch'
-Plug 'theprimeagen/vim-be-good'
 Plug 'gruvbox-community/gruvbox'
 Plug 'tpope/vim-projectionist'
 
