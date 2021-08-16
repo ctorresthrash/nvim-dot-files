@@ -124,3 +124,7 @@ nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>)
 
 nnoremap <silent> <leader>co  :<C-u>CocList -A --normal yank<cr>
+
+augroup JsonToJsonc
+    autocmd! FileType json set filetype=jsonc
+augroup END
