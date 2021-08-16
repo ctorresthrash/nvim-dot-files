@@ -43,7 +43,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window
-nnoremap <F1> :call <SID>show_documentation()<CR>
+nnoremap <leader>fh :call <SID>show_documentation()<CR>
 
 " ESLINT
 nnoremap <leader>fl :CocCommand eslint.executeAutofix<CR>
