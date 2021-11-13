@@ -6,6 +6,7 @@ let g:coc_global_extensions = [
   \ 'coc-prettier',
   \ 'coc-json',
   \ 'coc-stylelintplus',
+  \ 'coc-svelte',
   \]
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile

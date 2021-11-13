@@ -14,5 +14,6 @@
     "markdown",
     "json"
   ],
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+  "svelte.enable-ts-plugin": true
 }
