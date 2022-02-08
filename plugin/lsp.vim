@@ -1,6 +1,5 @@
 " Do this in lua?? maybe...
 " vim.o is short for something teej thinks makes sense.
-set completeopt=menuone,noselect
 let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
 
 fun! LspLocationList()
@@ -45,4 +44,3 @@ let g:compe.source.nvim_lsp = v:true
 let g:compe.source.nvim_lua = v:true
 let g:compe.source.vsnip = v:true
 
-inoremap <silent><expr> <CR>      compe#confirm('<CR>')
