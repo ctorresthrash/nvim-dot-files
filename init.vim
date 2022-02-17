@@ -27,6 +27,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
+Plug 'xolox/vim-session'
+Plug 'xolox/vim-misc'
 " Status Line
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -134,6 +136,9 @@ nnoremap <leader>fqq  :q!<cr>
 inoremap fj <esc>
 vnoremap fj <esc>
 tnoremap fj <c-\><c-n>
+
+nnoremap <leader>ss :SaveSession
+nnoremap <leader>os :OpenSession
 
 fun! EmptyRegisters()
     let regs=split('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/-"', '\zs')

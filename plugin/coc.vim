@@ -1,6 +1,7 @@
 " coc config
 let g:coc_global_extensions = [
   \ 'coc-snippets',
+  \ 'coc-css',
   \ 'coc-tsserver',
   \ 'coc-eslint',
   \ 'coc-prettier',
