@@ -133,12 +133,21 @@ nnoremap <leader>fs  :update<cr>
 nnoremap <leader>fq  :q<cr>
 nnoremap <leader>fsq  :wq<cr>
 nnoremap <leader>fqq  :q!<cr>
+nnoremap <leader>fqa  :qa!<cr>
 inoremap fj <esc>
 vnoremap fj <esc>
 tnoremap fj <c-\><c-n>
+inoremap jf <esc>
+vnoremap jf <esc>
+tnoremap jf <c-\><c-n>
+
 
 nnoremap <leader>ss :SaveSession
 nnoremap <leader>os :OpenSession
+
+nnoremap <leader>co :copen<cr>
+nnoremap <leader>cn :cnext<cr>
+nnoremap <leader>cp :cprevious<cr>
 
 fun! EmptyRegisters()
     let regs=split('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/-"', '\zs')
